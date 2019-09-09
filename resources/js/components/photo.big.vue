@@ -2,7 +2,7 @@
     <div class="modal bd-example-modal-lg" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
-                <img :src="baseUrl + '/storage/images/photos' + photo.file.name" alt="" style="width: 100%; height: 100%" v-if="photo">
+                <img :src="baseUrl + '/storage/images/photos/' + photo.file_name" alt="" style="width: 100%; height: 100%" v-if="photo">
             </div>
         </div>
     </div>

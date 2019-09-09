@@ -31077,8 +31077,8 @@ var render = function() {
                 attrs: {
                   src:
                     _vm.baseUrl +
-                    "/storage/images/photos" +
-                    _vm.photo.file.name,
+                    "/storage/images/photos/" +
+                    _vm.photo.file_name,
                   alt: ""
                 }
               })
